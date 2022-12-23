@@ -1,0 +1,83 @@
+.menu{
+	background-color: deepskyblue;
+	position: sticky;		
+}
+
+.aa{
+	color: white;
+}
+
+.aa:hover{
+	text-decoration: none;
+}
+
+.menu1a{
+	font-weight: bold;
+}
+
+.menu2{
+	background-color: indigo;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	position: sticky;	
+}
+
+.lista{
+	display: flex;
+/*	flex-direction: column;*/
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow-x: auto;
+}
+
+.lista li{
+	color: white;
+	font-size: 1.4rem;
+}
+
+.lista li a{
+	color: white;
+}
+
+.lista li a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+/*Para el scroll*/
+
+
+/* Tamaño del scroll */
+.lista::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+ /* Estilos barra (thumb) de scroll */
+.lista::-webkit-scrollbar-thumb {
+  background: silver;
+  border-radius: 4px;
+}
+
+.lista::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+.lista::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+ /* Estilos track de scroll */
+.lista::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 5px;
+}
+
+.lista::-webkit-scrollbar-track:hover, 
+.lista::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}

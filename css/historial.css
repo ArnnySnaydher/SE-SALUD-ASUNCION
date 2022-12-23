@@ -1,0 +1,11 @@
+.sombras{
+    box-shadow: 2px 1px 6px rgba(0, 0, 0, .25);
+}
+
+.p{
+	font-weight: bold;
+}
+
+.secc2{
+	border-top: solid silver 1px;
+}

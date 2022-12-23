@@ -1,0 +1,46 @@
+#contenedor{
+	background: deepskyblue; 
+}
+
+.rowboxLogin{
+	height: 100vh;
+}
+
+.icono img{
+	max-width: 100%;
+	max-height: 70vh;
+}
+
+
+.rowLogin{
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 1px 3px 4px rgba(0, 0, 0, .6);
+}
+
+.kl img{
+    max-width: 300px;
+    max-height: 200px;
+}
+
+
+/*.inputs{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: solid black 1.3px;
+	border-radius: 0px;
+	background-color: transparent;
+}
+
+.inputs:focus{
+    border-color: deepskyblue; 
+    box-shadow: 0 0 0 0.2rem rgba(171, 171, 171, 0);
+    background-color: transparent;
+}
+*/
+
+/*.form{
+    background-color: white;
+    border-left: solid black 1px;
+}*/

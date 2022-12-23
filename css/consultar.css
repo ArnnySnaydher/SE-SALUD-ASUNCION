@@ -1,0 +1,41 @@
+.formD{
+/*	background-color: deepskyblue;*/
+/*  border-left: solid black 1px;
+    border-right: solid black 1px;*/
+    box-shadow: 2px 1px 6px rgba(0, 0, 0, .25);
+}
+
+.sintomas{
+/*    box-shadow: 0px 0px 2.5px rgba(0, 0, 0, .20);*/
+    border-bottom: solid silver 1px;
+}
+
+.sintomas label{
+	font-weight: bold;
+}
+
+input[type=checkbox] {
+  transform: scale(2);
+}
+
+
+#scrollUp{
+  position: fixed;
+  bottom: 1%;
+  right: 25px;
+  display: none;
+  font-size: 2em;
+  background-color: transparent;
+  color: transparent;
+  cursor: pointer;
+  transition: all .25s linear;  
+}
+
+.VerscrollUp{
+  display: block !important;
+  color: indigo !important;
+}
+
+.text-indigo{
+  color: indigo;
+}

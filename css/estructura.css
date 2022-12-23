@@ -1,0 +1,64 @@
+.btn-outline-ex{
+	color: deepskyblue !important;
+	background-color: transparent !important;
+	border-color: deepskyblue;
+}
+
+
+.btn-outline-ex:hover{
+	color: white !important;
+	background-color: deepskyblue !important;
+}
+
+
+.btn-outline-ex:focus{
+    border-color: deepskyblue !important; 
+    box-shadow: 0 0 0 0.2rem rgba(0, 191, 255, 0.25) !important;	
+}
+
+#contenedor, body, html{
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor{
+  min-width: 100vw; min-height: 100vh;
+}
+
+
+
+/*Para el scroll*/
+
+/* Tamaño del scroll */
+html::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+ /* Estilos barra (thumb) de scroll */
+html::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+html::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+ /* Estilos track de scroll */
+html::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 5px;
+}
+
+html::-webkit-scrollbar-track:hover, 
+html::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
