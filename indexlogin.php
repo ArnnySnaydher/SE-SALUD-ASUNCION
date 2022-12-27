@@ -28,7 +28,8 @@ include('php/conexion.php');
           $abc = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 
           foreach ($abc as $value) {
-            echo '<li class="btn p-0"><a class="pl-3 pr-3" href="#'.$value.'">'.$value.'</a></li>';
+            echo '<li class="btn p-1"><a class="pl-3 pr-3" href="#'.$value.'">'.$value.'</a></li>';
+            // print_r($value);
           }
 
           ?>
@@ -62,7 +63,7 @@ include('php/conexion.php');
 
           ?>
           <div class="text-center">
-            <button type="submit" class="btn btn-outline-primary col-6 mt-2">Consultar</button>
+            <button type="submit" class="btn btn-outline-primary col-6 mt-2">Consultar_test</button>
           </div>           
         </form>    
       </div>

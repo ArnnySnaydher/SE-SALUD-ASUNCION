@@ -1,7 +1,7 @@
 <?php
-$titulo = 'MedipLine';
+$titulo = 'Virgen de la Asuncion';
 $iconologin = 'img/login.png';
-$icono_pestaña = '<link rel="shortcut icon" href="img/icono.ico">';
+$icono_pestaña = '<link rel="shortcut icon" href="img/logo.png">';
 
 // css
 $estructura = '<link rel="stylesheet" type="text/css" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">

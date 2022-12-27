@@ -1,18 +1,8 @@
 <?php
-
-$hostLiveN='localhost';
-$userLiveN='root';
-$passLiveN='';
-$bdLiveN='semedico';
-
-$hostLive='localhost';
-$userLive='superpa1_rootmed';
-$passLive='RootmedPass1';
-$bdLive='superpa1_semedico';
-
-
-$conexion = mysqli_connect($hostLiveN, $userLiveN, $passLiveN, $bdLiveN); 
+$conexion = mysqli_connect("localhost", "root", "", "saludse"); 
 if (!$conexion) { 
-    die('Could not connect to MySQL: ' . mysqli_error($conexion)); 
+    die('No se pudo conectar a la base de datos: ' . mysqli_connect_error($conexion)); 
 } 
+// echo "Conexion exitosa usuario";
+// mysqli_close($conexion);
 ?>

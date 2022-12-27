@@ -1,5 +1,5 @@
 .menu{
-	background-color: deepskyblue;
+	background-color: rgb(11, 17, 19);
 	position: sticky;		
 }
 
@@ -16,7 +16,7 @@
 }
 
 .menu2{
-	background-color: indigo;
+	background-color: rgba(18, 17, 36, 0.87);
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
 	position: sticky;	

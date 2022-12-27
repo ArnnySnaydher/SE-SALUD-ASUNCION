@@ -194,13 +194,14 @@ else{
     foreach ($c_sintomas as $value){
       $sql = "INSERT INTO sintoma_historial(historial, sintoma)
       VALUES ($historial, $value);";
-      $result = mysqli_query($conexion, $sql);
+      // $result = mysqli_query($conexion, $sql);
     }
     foreach ($jsonaux as $value){
       $enf = $value['idenfermedad'];
       $sql = "INSERT INTO enfermedad_historial(historial, enfermedad)
       VALUES ($historial, $enf);";
       $result = mysqli_query($conexion, $sql);
+      print_r("hola". $result);
     }    
   } 
 
