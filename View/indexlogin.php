@@ -5,8 +5,8 @@ if (!isset($_SESSION['iduser']) || empty($_SESSION['iduser'])){
   header("location:index.php");
 }
 else{
-include('php/variables.php');
-include('php/conexion.php');
+include('../Controller/variables.php');
+include('../Controller/conexion.php');
 ?>
 <!DOCTYPE html>
 <html id="html">
@@ -39,7 +39,7 @@ include('php/conexion.php');
       <div class="w-100"></div>
 
       <div class="col-xl-7 col-lg-8 col-md-10 col-sm-10 col-11">
-        <form method="POST" action="diagnosticar.php" class="formD p-4 mt-2 mb-2">
+        <form method="POST" action="../Controller/diagnosticar.php" class="formD p-4 mt-2 mb-2">
           <?php
             foreach($abc as $value){
               $y = strtolower($value);

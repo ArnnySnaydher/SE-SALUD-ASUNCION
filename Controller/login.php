@@ -13,7 +13,7 @@ if (isset($_POST['email']) && !empty ($_POST['email']) && isset($_POST['clave'])
     $result = mysqli_query($conexion, $sql);
     mysqli_close($conexion); // Cerramos la conexion con la base de datos
 
-    if(mysqli_num_rows($result) <= 0){ header('Location:../index.php?msm=Email o contraseña incorrecta'); }
+    if(mysqli_num_rows($result) <= 0){ header('Location:../View/index.php?msm=Email o contraseña incorrecta'); }
 
     else{
 
@@ -22,7 +22,7 @@ if (isset($_POST['email']) && !empty ($_POST['email']) && isset($_POST['clave'])
             $_SESSION['clave'] = $row['clave'];
             $_SESSION['iduser'] = $row['iduser'];
             $_SESSION['email'] = $row['email'];
-            header('Location:../indexlogin.php');
+            header('Location:../View/indexlogin.php');
 
         }
 

@@ -1,5 +1,5 @@
 <?php
-include('php/variables.php');
+include('../Controller/variables.php');
 if (!isset($_GET['msm']) || empty($_GET['msm'])){
   $_GET['msm'] = '';
 }
@@ -26,14 +26,18 @@ if (!isset($_GET['msm']) || empty($_GET['msm'])){
         <img src="img/login3.png" class="icono">
       </div>  
 
-      <h1 class="text-primary text-center">Recuperación de contraseña</h1>
+      <h1 class="text-primary text-center">Inicio de sesión</h1>
       
-      <form method="POST" action="php/c_recuperar.php" class="m-2">
+      <form method="POST" action="../Controller/login.php" class="m-2">
         <div class="form-group"> 
           <label for="email">Correo</label>
           <input type="text" class="form-control" id="email" name="email" required="required" autocomplete="on" placeholder="Ingresa el correo de tu cuenta">
-          <small class="form-text text-muted text-center"><a href="registrarse.php">No tengo cuenta</a> - <a href="index.php">Ya tengo cuenta</a></small>
         </div> 
+        <div class="form-group"> 
+          <label for="clave">Clave</label>
+          <input type="password" class="form-control" id="clave" name="clave" required="required" placeholder="Ingresa tu contraseña">
+          <small class="form-text text-muted text-center"><a href="registrarse.php">No tengo cuenta</a> - <a href="recuperar.php">Olvidé mi contraseña</a></small>
+        </div>
         <p class="text-center"><?php echo $_GET['msm']; ?></p>
         <div class="text-center">
           <button type="submit" class="btn btn-outline-primary col-6">Iniciar sesión</button>

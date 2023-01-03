@@ -1,18 +1,18 @@
 <?php
 $titulo = 'Virgen de la Asuncion';
-$iconologin = 'img/login.png';
-$icono_pestaña = '<link rel="shortcut icon" href="img/logo.png">';
+$iconologin = '../View/img/login.png';
+$icono_pestaña = '<link rel="shortcut icon" href="../View/img/logo.png">';
 
 // css
-$estructura = '<link rel="stylesheet" type="text/css" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
-   <link rel="stylesheet" type="text/css" href="css/estructura.css"> 
-   <link rel="stylesheet" type="text/css" href="fontawesome-free-5.12.0-web/css/all.min.css">';
-$estilos_login = '<link rel="stylesheet" type="text/css" href="css/estilos_login.css">';
-$menu = '<link rel="stylesheet" type="text/css" href="css/menu.css">';
-$consultar = '<link rel="stylesheet" type="text/css" href="css/consultar.css">';
-$diagnosticar_css = '<link rel="stylesheet" type="text/css" href="css/diagnostico.css">';
-$sugerir_css = '<link rel="stylesheet" type="text/css" href="css/sugerir.css">';
-$historial_css = '<link rel="stylesheet" type="text/css" href="css/historial.css">';
+$estructura = '<link rel="stylesheet" type="text/css" href="../View/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="../View/css/estructura.css"> 
+   <link rel="stylesheet" type="text/css" href="../fontawesome-free-5.12.0-web/css/all.min.css">';
+$estilos_login = '<link rel="stylesheet" type="text/css" href="../View/css/estilos_login.css">';
+$menu = '<link rel="stylesheet" type="text/css" href="../View/css/menu.css">';
+$consultar = '<link rel="stylesheet" type="text/css" href="../View/css/consultar.css">';
+$diagnosticar_css = '<link rel="stylesheet" type="text/css" href="../View/css/diagnostico.css">';
+$sugerir_css = '<link rel="stylesheet" type="text/css" href="../View/css/sugerir.css">';
+$historial_css = '<link rel="stylesheet" type="text/css" href="../View/css/historial.css">';
 
 
 // js
@@ -20,11 +20,11 @@ $js = '<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity=
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
-   <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>';     
+   <script src="../View/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>';     
 
-$consultar_js = '<script type="text/javascript" src="js/consultar.js"></script>';
-$sug_sintoma_js = '<script type="text/javascript" src="js/sugerirsintoma.js"></script>';
-$historial_js = '<script type="text/javascript" src="js/historial.js"></script>';
+$consultar_js = '<script type="text/javascript" src="../js/consultar.js"></script>';
+$sug_sintoma_js = '<script type="text/javascript" src="../js/sugerirsintoma.js"></script>';
+$historial_js = '<script type="text/javascript" src="../js/historial.js"></script>';
 
 // estructuras
 $menu1 = '
@@ -32,10 +32,10 @@ $menu1 = '
       <div class="col">
         <div class="row justify-content-center">
           <div class="col-auto menu1a">
-            <a href="indexlogin.php" class="aa">Consultar <m class="fas fa-notes-medical fa-lg"></m></a>
+            <a href="../View/indexlogin.php" class="aa">Consultar <m class="fas fa-notes-medical fa-lg"></m></a>
           </div>
           <div class="col-auto menu1a">
-            <a href="historial.php" class="aa">Historial <m class="fas fa-history fa-lg"></m></a>
+            <a href="../View/historial.php" class="aa">Historial <m class="fas fa-history fa-lg"></m></a>
           </div>
           <div class="col-auto menu1a">
             <a onclick="mostrar();" href="#" class="aa">Sugerir sintoma <m class="fas fa-plus-circle fa-lg"></m></a>
@@ -43,7 +43,7 @@ $menu1 = '
         </div>  
       </div>
       <div class="col-auto menu1a">
-            <a href="php/salir.php" class="aa">Salir <m class="fas fa-power-off fa-lg"></m></a>
+            <a href="salir.php" class="aa">Salir hogar <m class="fas fa-power-off fa-lg"></m></a>
       </div>     
     </div>
 ';

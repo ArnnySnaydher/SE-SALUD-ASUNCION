@@ -6,8 +6,10 @@ if (!isset($_SESSION['iduser']) || empty($_SESSION['iduser'])){
 }
 else{
 $iduser = $_SESSION['iduser'];
-include('php/variables.php');
-include('php/conexion.php');
+//include('php/variables.php');
+include('../Controller/variables.php');
+
+include('../Controller/conexion.php');
 ?>
 <!DOCTYPE html>
 <html id="html">

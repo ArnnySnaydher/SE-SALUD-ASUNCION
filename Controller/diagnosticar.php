@@ -5,8 +5,8 @@ if (!isset($_SESSION['iduser']) || empty($_SESSION['iduser'])){
   header("location:index.php");
 }
 else{
-  include("php/conexion.php");
-  include('php/variables.php');
+  include("conexion.php");
+  include('variables.php');
   $user = $_SESSION['iduser'];
   $json = array();
   $jsonaux = array();

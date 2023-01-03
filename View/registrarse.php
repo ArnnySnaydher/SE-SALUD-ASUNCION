@@ -1,5 +1,5 @@
 <?php
-include('php/variables.php');
+include('../Controller/variables.php');
 if (!isset($_GET['msm']) || empty($_GET['msm'])){
   $_GET['msm'] = '';
 }
@@ -28,7 +28,7 @@ if (!isset($_GET['msm']) || empty($_GET['msm'])){
 
       <h1 class="text-primary text-center">Registrarse</h1>
       
-      <form method="POST" action="php/signin.php" class="m-2">
+      <form method="POST" action="../Model/php/signin.php" class="m-2">
         <div class="form-group"> 
           <label for="email">Correo</label>
           <input type="text" class="form-control" id="email" name="email" required="required" autocomplete="on" placeholder="Ingresa el correo con el que iniciarás sesión">

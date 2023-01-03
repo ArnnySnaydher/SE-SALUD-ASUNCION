@@ -22,15 +22,15 @@ if(isset($_POST['email']) && !empty ($_POST['email'])){
    
     mail($email, $asunto, $mensaje, $cabeceras);
     mysqli_close($conexion); // Cerramos la conexion con la base de datos    
-    header('Location:../recuperar.php?msm=Envíamos la clave de tu cuenta al correo: '.$email);         
+    header('Location:../Model/php/recuperar.php?msm=Envíamos la clave de tu cuenta al correo: '.$email);         
   }
   else{
     mysqli_close($conexion); // Cerramos la conexion con la base de datos    
-    header('Location:../recuperar.php?msm=No existe una cuenta con el correo '.$email);      
+    header('Location:../Model/php/recuperar.php?msm=No existe una cuenta con el correo '.$email);      
   }
 }
 else{
   mysqli_close($conexion); // Cerramos la conexion con la base de datos    
-  header('Location:../recuperar.php?msm=Campo vacío');
+  header('Location:../Model/php/recuperar.php?msm=Campo vacío');
 }
 ?>

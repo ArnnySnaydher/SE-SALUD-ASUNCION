@@ -1,5 +1,5 @@
 <?php
-include('php/variables.php');
+include('../Controller/variables.php');
 if (!isset($_GET['msm']) || empty($_GET['msm'])){
   $_GET['msm'] = '';
 }
@@ -28,9 +28,9 @@ if (!isset($_GET['msm']) || empty($_GET['msm'])){
 
       <h1 class="text-primary text-center">Recuperación de contraseña</h1>
       
-      <form method="POST" action="php/c_recuperar.php" class="m-2">
+      <form method="POST" action="../Controller/c_recuperar.php" class="m-2">
         <div class="form-group">
-          <input type="text" class="form-control" id="email" name="email" required="required" autocomplete="on" placeholder="Ingresa el correo de tu cuenta">
+          <input type="text" class="form-control" id="email" name="email" required="required" autocomplete="on" placeholder="Ingresa el correo de tu cuenta zzz">
           <small class="form-text text-muted text-center"><a href="registrarse.php">No tengo cuenta</a> - <a href="index.php">Ya tengo cuenta</a></small>
         </div> 
         <p class="text-center"><?php echo $_GET['msm']; ?></p>
