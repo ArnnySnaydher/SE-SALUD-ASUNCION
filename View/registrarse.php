@@ -28,7 +28,7 @@ if (!isset($_GET['msm']) || empty($_GET['msm'])){
 
       <h1 class="text-primary text-center">Registrarse</h1>
       
-      <form method="POST" action="../Model/php/signin.php" class="m-2">
+      <form method="POST" action="../Model/signin.php" class="m-2">
         <div class="form-group"> 
           <label for="email">Correo</label>
           <input type="text" class="form-control" id="email" name="email" required="required" autocomplete="on" placeholder="Ingresa el correo con el que iniciarás sesión">
@@ -41,7 +41,8 @@ if (!isset($_GET['msm']) || empty($_GET['msm'])){
         <p class="text-center"><?php echo $_GET['msm']; ?></p>
         <div class="text-center">
           <button type="submit" class="btn btn-outline-primary col-6">Registrarse</button>
-        </div>  
+        </div> 
+        <a href="javascript:history.back()"> Volver Atrás</a> 
       </form>     
     </div>
 

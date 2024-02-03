@@ -42,6 +42,7 @@ if (!isset($_GET['msm']) || empty($_GET['msm'])){
         <div class="text-center">
           <button type="submit" class="btn btn-outline-primary col-6">Iniciar sesión</button>
         </div>  
+        <a href="../index.html"> Volver Atrás</a> 
       </form>    	
     </div>
 

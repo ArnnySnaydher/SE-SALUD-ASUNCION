@@ -23,14 +23,14 @@ if (!isset($_GET['msm']) || empty($_GET['msm'])){
     <div class="col-xl-9 col-lg-9 col-md-10 col-sm-10 col-11 pb-4 pr-2 pl-2 form">
 
       <div class="text-center kl m-0">
-        <img src="img/login3.png" class="icono">
+        <img src="img/correo.png" class="icono">
       </div>  
 
       <h1 class="text-primary text-center">Recuperación de contraseña</h1>
       
       <form method="POST" action="../Controller/c_recuperar.php" class="m-2">
         <div class="form-group">
-          <input type="text" class="form-control" id="email" name="email" required="required" autocomplete="on" placeholder="Ingresa el correo de tu cuenta zzz">
+          <input type="text" class="form-control" id="email" name="email" required="required" autocomplete="on" placeholder="Ingresa tu correo">
           <small class="form-text text-muted text-center"><a href="registrarse.php">No tengo cuenta</a> - <a href="index.php">Ya tengo cuenta</a></small>
         </div> 
         <p class="text-center"><?php echo $_GET['msm']; ?></p>
