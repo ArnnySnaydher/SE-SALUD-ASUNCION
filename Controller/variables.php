@@ -43,7 +43,7 @@ $menu1 = '
         </div>  
       </div>
       <div class="col-auto menu1a">
-            <a href="salir.php" class="aa">Salir hogar <m class="fas fa-power-off fa-lg"></m></a>
+            <a href="../Controller/salir.php" class="aa">Salir <m class="fas fa-power-off fa-lg"></m></a>
       </div>     
     </div>
 ';
