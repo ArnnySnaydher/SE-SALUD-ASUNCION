@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        background-color: antiquewhite;
+      }
+      .container-sup {
+        display: flex;
+        padding: 20px;
+        justify-content: space-around;
+        width: 70%;
+        margin: 0 auto;
+      }
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 40%;
+        border: 1px solid;
+        border-radius: 5%;
+        background-color: aliceblue;
+      }
+
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      }
+
+      .container {
+        padding: 2px 16px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-sup">
+      <div class="card">
+        <a href="View/index.php" >
+          <img src="View/img/user.png" alt="Avatar" width="100%" />
+        </a>
+        <div class="container">
+          <h4><b>PACIENTE</b></h4>
+          <a href="View/index.php" >
+            <p>INGRESAR</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <a href="admin/index.php" >
+          <img src="View/img/admin.png" alt="Avatar" width="100%" />
+        </a>
+        <div class="container">
+          <h4><b>MEDIDO</b></h4>
+          <a href="admin/index.php" >
+            <p>INGRESAR</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
