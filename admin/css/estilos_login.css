@@ -1,5 +1,5 @@
 #contenedor{
-	background: rgb(137, 160, 133); 
+	background: rgb(176, 214, 214); 
 }
 
 .rowboxLogin{
@@ -13,7 +13,7 @@
 
 
 .rowLogin{
-	background-color: rgb(144, 186, 213);
+	background-color: rgb(222, 231, 243);
 	border-radius: 15px;
 	box-shadow: 1px 3px 4px rgba(0, 0, 0, .6);
 }
